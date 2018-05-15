@@ -1,0 +1,58 @@
+{
+  "protocol": {
+    "featureCategory": {
+      "id": "MN-DLM-330",
+      "name": "Medication Entry"
+    },
+    "feature": {
+      "id": "MN-DLM-330.1",
+      "name": "Medication Entry - List"
+    },
+    "duc": {
+      "title": "Medication Entry - Search",
+      "description": "This DUC represents workflow for free text search on medication entry list view"
+    },
+    "numberOfTestcases": 4,
+    "pushpump": false,
+    "pumpsim": false,
+    "infuserTypes": ["Plum 360"],
+    "infuserVersions": {
+      "plum": ["15.1x"]
+    }
+  },
+  "infuserType": "Plum 360",
+  "infuserVersion": "15.1x",
+  "displayName": "Test_Entry_",
+  "columnName": "Displayed Name",
+  "confirm": "Confirm",
+  "medicationEntries": "Medication Entries",
+  "entryDetails": {
+    "medicationNames": {
+      "displayName": "SearchTest",
+      "clinicalUse": "Test Medication Entry"
+    },
+    "concentrationType": "Full Concentration",
+    "medicationUnit": "mg",
+    "medicationAmount": "100",
+    "volumeAmount": "1000",
+    "dosingUnit": "mL/min",
+    "dosingLimits": {
+      "lhl": "1", 
+      "lsl": "2",
+      "usl": "3",
+      "uhl": "4"
+    }        
+  },
+  "noteValues": [  
+    "Medication Entry displayed as per the positive search",
+    "Medication Entry displayed as per the negative search",
+    "Medication Entry displayed as per the wildcard search for partial generic name",
+    "Medication Entry displayed as per the case insensitive search"
+  ],  
+  "testCases": [
+    "Verify the medication Entry search - positive search result",
+    "Verify the medication Entry search - negative search result",
+    "Verify the medication Entry search - wildcard search result",
+    "Verify the medication Entry search - case insensitive search result"
+  ]      
+}

@@ -1,0 +1,6 @@
+18:54:32.322 [main] INFO  Dlm.Base - validateLogin - Successfully navigated to drugLibrarydashboard
+18:54:34.906 [main] INFO  Dlm.Base - validateLogin - Successfully closed mednet instance
+18:54:39.726 [main] INFO  Dlm.Base - validateLogin - Successfully navigated to Mednet application
+18:54:40.305 [main] INFO  Dlm.Base - validateLogin - Successfully logged into application
+18:54:48.463 [main] INFO  Dlm.Base - validateLogin - Successfully navigated to drugLibrarydashboard
+18:54:48.958 [main] INFO  Dlm.Base - validateLogin - Successfully closed mednet instance

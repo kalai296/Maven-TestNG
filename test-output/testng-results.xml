@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48733" started-at="2017-12-12T05:30:47Z" finished-at="2017-12-12T05:31:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48733" started-at="2017-12-12T05:30:47Z" finished-at="2017-12-12T05:31:35Z">
+      <class name="Dlm.LoginPageTest">
+        <test-method status="PASS" signature="validateLogin()[pri:0, instance:Dlm.LoginPageTest@7c137fd5]" name="validateLogin" duration-ms="28992" started-at="2017-12-12T11:00:51Z" finished-at="2017-12-12T11:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- Dlm.LoginPageTest -->
+      <class name="Dlm.CopyOfLoginPageTest">
+        <test-method status="PASS" signature="intializeDrive()[pri:0, instance:Dlm.CopyOfLoginPageTest@183ec003]" name="intializeDrive" is-config="true" duration-ms="3375" started-at="2017-12-12T11:00:47Z" finished-at="2017-12-12T11:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDrive -->
+        <test-method status="PASS" signature="intializeDrive()[pri:0, instance:Dlm.LoginPageTest@7c137fd5]" name="intializeDrive" is-config="true" duration-ms="1250" started-at="2017-12-12T11:00:50Z" finished-at="2017-12-12T11:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDrive -->
+        <test-method status="PASS" signature="validateLogin()[pri:0, instance:Dlm.CopyOfLoginPageTest@183ec003]" name="validateLogin" duration-ms="12675" started-at="2017-12-12T11:01:20Z" finished-at="2017-12-12T11:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="closeInstance()[pri:0, instance:Dlm.CopyOfLoginPageTest@183ec003]" name="closeInstance" is-config="true" duration-ms="2113" started-at="2017-12-12T11:01:33Z" finished-at="2017-12-12T11:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeInstance -->
+        <test-method status="PASS" signature="closeInstance()[pri:0, instance:Dlm.LoginPageTest@7c137fd5]" name="closeInstance" is-config="true" duration-ms="197" started-at="2017-12-12T11:01:35Z" finished-at="2017-12-12T11:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeInstance -->
+      </class> <!-- Dlm.CopyOfLoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

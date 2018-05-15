@@ -1,0 +1,6 @@
+11:00:56.865 [main] INFO  Dlm.Base - validateLogin - Successfully navigated to Mednet application
+11:00:57.663 [main] INFO  Dlm.Base - validateLogin - Successfully logged into application
+11:01:20.619 [main] INFO  Dlm.Base - validateLogin - Successfully navigated to drugLibrarydashboard
+11:01:24.620 [main] INFO  Dlm.Base - validateLogin - Successfully navigated to Mednet application
+11:01:25.698 [main] INFO  Dlm.Base - validateLogin - Successfully logged into application
+11:01:33.325 [main] INFO  Dlm.Base - validateLogin - Successfully navigated to drugLibrarydashboard
